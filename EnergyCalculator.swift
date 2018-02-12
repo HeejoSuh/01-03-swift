@@ -3,7 +3,7 @@
 //  This program calculates the energy that can be calculated from a given mass
 //
 //  Created by Heejo Suh in Feb 2018
-//  Copyright ¨Ï 2018 MTHS. All rights reserved.
+//  Copyright @ 2018 MTHS. All rights reserved.
 //
 import Foundation
 
