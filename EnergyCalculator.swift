@@ -3,9 +3,8 @@
 //  This program calculates the energy that can be calculated from a given mass
 //
 //  Created by Heejo Suh in Feb 2018
-//  Copyright ®œ 2018 MTHS. All rights reserved.
+//  Copyright ¬®√è 2018 MTHS. All rights reserved.
 //
-
 import Foundation
 
 //no input yet, need '?' to close
@@ -23,9 +22,9 @@ while true {
     input = readLine(strippingNewline: true)
     //check if input is a number
 	if let check = Double(input!), check != nil {
-		massOfObject = Double(input!)!
+		massInput = Double(input!)!
 		//calculate  (E=mc^2)
-		totalEnergy: = massInput: * pow(speedOfLight, 2)
+		totalEnergy = massInput*pow(speedOfLight, 2)
 		print("Maximum amount of energy the mass can be converted into:  \(totalEnergy)J.")
 		//need break to get out of while loop and not repeat question
 		break
