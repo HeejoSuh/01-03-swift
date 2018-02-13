@@ -18,10 +18,10 @@ let speedOfLight: Double = 2.998 * pow(10, 8)
 //while appropriate response has not been collected
 //use while-true functions to break out of
 while true {
-	print("Input mass (kg) to be converted: ")
+    print("Input mass (kg) to be converted: ")
     input = readLine(strippingNewline: true)
     //check if input is a number
-	if let check = Double(input!), check != nil {
+	if let check = Double(input!){
 		massInput = Double(input!)!
 		//calculate  (E=mc^2)
 		totalEnergy = massInput*pow(speedOfLight, 2)
